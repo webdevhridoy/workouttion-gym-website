@@ -1,0 +1,22 @@
+.user-info {
+    background-color: #F2F4FA;
+    margin: 20px;
+}
+.break {
+    background-color: #F2F4FA;
+}
+.break p{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.break p:hover{
+    background-color: #5D5FEF;
+    color: #fff;
+}
+.excersice-details {
+    background-color: #F2F4FA;
+}
