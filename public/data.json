@@ -1,0 +1,50 @@
+[
+    {
+        "id": "63345d7607497ad73e2c5c8e",
+        "name": "The Body Pump",
+        "age": 20,
+        "times": 2,
+        "img": "https://ibb.co/LdjFcx6",
+        "description": "BODYPUMP™ is THE ORIGINAL BARBELL CLASS™, the ideal workout for anyone looking to get lean, toned and fit – fast."
+      },
+    {
+        "id": "63345d76e916d719dae6a321",
+        "name": "The Cardio Workout",
+        "age": 24,
+        "times": 1,
+        "img": "https://ibb.co/2Knrt16",
+        "description": "Cardiovascular exercise, also known as cardio or aerobic exercise, is essential for good health."
+      },
+    {
+        "id": "63345d761827fb999e608f28",
+        "name": "The Spartan Workout",
+        "age": 26,
+        "times": 3,
+        "img": "https://ibb.co/KmPD6Rs",
+        "description": "Spartans took pain and made it their friend. The Spartan workout exercises some major muscle groups to give you the total warrior feeling when you move."
+      },
+    {
+        "id": "63345d7618bbb2bee410dd39",
+        "name": "The Hardcore Workout",
+        "age": 24,
+        "times": 2,
+        "img": "https://ibb.co/z41nxyv",
+        "description": "Hardcore gyms can be difficult to find. Often they’re small, operate on a tiny budget and don’t do a hell of a lot of advertising."
+      },
+    {
+        "id": "63345d76a74bb1e501dd7017",
+        "name": "The Pro Cycling",
+        "age": 26,
+        "times": 2,
+        "img": "https://ibb.co/tsz2Kpt",
+        "description": "Want to try road cycling but not sure where to start? We’ve got you covered. Distinct from just riding around on a bike?"
+      },
+    {
+        "id": "63345d769ee62a28b7db9a9e",
+        "name": "The Body Combat",
+        "age": 28,
+        "times": 3,
+        "img": "https://ibb.co/q100pPX",
+        "description": "This high-energy martial-arts inspired workout is totally non-contact and there are no complex moves to master."
+      }
+]
