@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from '../../user_profile.png';
 import './Cart.css';
 import { ToastContainer, toast } from 'react-toastify';
@@ -9,19 +9,16 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Cart = ({ list }) => {
     const [breaks, setBreaks] = useState('');
-    const getPreviousBreaks = localStorage.getItem('break-time');
-    const previousBreaks = JSON.parse(getPreviousBreaks);
 
     const breaksHandle = (breakTime) => {
-        // console.log(breakTime);
-        if (previousBreaks) {
-            setBreaks(breakTime);
-            localStorage.setItem('break-time', JSON.stringify(breakTime));
-        } else {
-            localStorage.setItem('break-time', JSON.stringify(breakTime));
-            setBreaks(breakTime);
-        }
+        localStorage.setItem("break-time", breakTime);
+        setBreaks(breakTime);
     };
+    useEffect(() => {
+        const getBreakFromLocalStorage = localStorage.getItem("break-time");
+        setBreaks(getBreakFromLocalStorage);
+    }, []);
+
     const notify = () => toast("Wow so easy!");
 
     let time = 0;
