@@ -4,8 +4,7 @@ const Footer = () => {
     return (
         <div>
             <div className="containter pt-5 pb-2">
-                <p>Md Rafiqul Islam Creation. All reserve rights</p>
-                Ⓒ 20202
+                <p>Copyright © 2022 | Md Rafiqul Islam Creation. <br /> All Rights Reserved.</p>
             </div>
         </div>
     );
