@@ -1,47 +1,29 @@
-
 import Accordion from 'react-bootstrap/Accordion';
-
 import './Question.css';
 
 const Question = () => {
     return (
-        <div className='container py-5'>
+        <div className='container py-5 questions'>
             <h1 className='pb-3 fs-3 fw-bolder'>Question and Answer</h1>
-            <Accordion defaultActiveKey={['0']} alwaysOpen>
+            <Accordion className='question-answer' defaultActiveKey={['0']} alwaysOpen>
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header>Accordion Item #1</Accordion.Header>
+                    <Accordion.Header>How does react works?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        React is a JavaScript library developed by Facebook which, among other things, was used to build Instagram.com. It's a library not a framework that creates user interfaces(UI). Also React is component based and hook based as well like useState, useEffect.The main concept of React. js is virtual DOM.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
-                    <Accordion.Header>Accordion Item #2</Accordion.Header>
+                    <Accordion.Header>What are the differences between props and state?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        Props are used to pass data, whereas state is for managing data. Data from props is read-only, and cannot be modified by a component that is receiving it from outside. State data can be modified by its own component, but is private (cannot be accessed from outside)
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
-                    <Accordion.Header>Accordion Item #3</Accordion.Header>
+                    <Accordion.Header>What is the use of useState useEffect hook?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        Updating the DOM, fetching data from an API endpoint, setting up subscriptions or timers, live filtering, validating input field.
+
+                        The useEffect hook performs side effects in functional components. It is a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount. These three life-cycle methods can be handled by the useEffect hooks.
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
