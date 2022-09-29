@@ -21,10 +21,10 @@ const Home = () => {
     return (
         <div className='container home-container'>
             <div className="row">
-                <div className='col-12 col-md-8 text-start'>
+                <div className='col-12 col-md-8 col-sm-12 text-start'>
                     <Cards cards={cards} handleToList={handleToList}></Cards>
                 </div>
-                <div className='col-md-4 col-12'>
+                <div className='col-12 col-md-4 col-sm-12'>
                     <Cart list={list}></Cart>
                 </div>
             </div>

@@ -29,7 +29,7 @@ const Cart = ({ list }) => {
     return (
         <div className='shadow-lg py-5 position-sticky top-0'>
             <div className='row'>
-                <div className='col-3'>
+                <div className='col-3 user-profile'>
                     <img className='w-100 rounded-5 profile-img' src={logo} alt="" />
                 </div>
                 <div className='col-9 pe-5 '>
