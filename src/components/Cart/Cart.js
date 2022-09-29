@@ -30,7 +30,7 @@ const Cart = ({ list }) => {
         <div className='shadow-lg py-5 position-sticky top-0'>
             <div className='row'>
                 <div className='col-3'>
-                    <img className='w-100 rounded-5 w-100' src={logo} alt="" />
+                    <img className='w-100 rounded-5 profile-img' src={logo} alt="" />
                 </div>
                 <div className='col-9 pe-5 '>
                     <h2 className='fs-5 '>Md Rafiqul Islam</h2>
