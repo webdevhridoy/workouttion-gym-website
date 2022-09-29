@@ -3,7 +3,8 @@ import './Question.css';
 
 const Question = () => {
     return (
-        <div className='container py-5 questions'>
+        <div className='container py-5 questions' data-aos="fade-right"
+            data-aos-offset="300" data-aos-easing="ease-in-sine">
             <h1 className='pb-3 fs-3 fw-bolder'>Question and Answer</h1>
             <Accordion className='question-answer' defaultActiveKey={['0']} alwaysOpen>
                 <Accordion.Item eventKey="0">

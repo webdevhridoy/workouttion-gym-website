@@ -4,7 +4,7 @@ const Card = ({ card, handleToList }) => {
     const { name, age, times, img, description } = card;
     return (
         <div>
-            <div class="col">
+            <div class="col" data-aos="zoom-in">
                 <div class="card">
                     <img src={img} alt="images" class="card-img-top w-100 custom-img" />
                     <div class="card-body">
